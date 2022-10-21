@@ -19,3 +19,10 @@ const h3Blue = document.createElement('h3');
 h3Blue.textContent = "I'm a blue h3";
 h3Blue.style.cssText = "color: blue;";
 container.appendChild(h3Blue);
+
+// a <div> with a black border and pink background color with the following elements inside of it:
+const otherDiv = document.createElement('div');
+otherDiv.style.backgroundColor = "pink";
+otherDiv.style.height = "100px";
+otherDiv.style.border = "thick solid black";
+container.appendChild(otherDiv);
