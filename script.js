@@ -26,8 +26,8 @@ otherDiv.style.backgroundColor = "pink";
 otherDiv.style.height = "100px";
 otherDiv.style.border = "thick solid black";
 container.appendChild(otherDiv);
-
 // another <h1> that says “I’m in a div”
+
 const otherH1 = document.createElement('h1');
 otherH1.textContent = "I'm in a div";
 otherDiv.appendChild(otherH1);
