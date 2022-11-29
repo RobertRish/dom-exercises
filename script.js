@@ -31,8 +31,8 @@ container.appendChild(otherDiv);
 const otherH1 = document.createElement('h1');
 otherH1.textContent = "I'm in a div";
 otherDiv.appendChild(otherH1);
-
 // a <p> that says “ME TOO!”
+
 const otherP = document.createElement('p');
 otherP.textContent = "ME TOO!";
 otherDiv.appendChild(otherP);
