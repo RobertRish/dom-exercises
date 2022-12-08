@@ -36,8 +36,8 @@ otherDiv.appendChild(otherH1);
 const otherP = document.createElement('p');
 otherP.textContent = "ME TOO!";
 otherDiv.appendChild(otherP);
-// events
 
+// events
 const btn = document.querySelector('#btn');
 btn.addEventListener('click', function (e) {
     e.target.style.background = 'blue';
