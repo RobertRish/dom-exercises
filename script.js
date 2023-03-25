@@ -40,8 +40,8 @@ otherDiv.appendChild(otherP);
 
 const btn = document.querySelector('#btn');
 btn.addEventListener('click', function (e) {
+});
     e.target.style.background = 'blue';
-  });
   // commit
   // commit
   // commit
