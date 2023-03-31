@@ -38,8 +38,8 @@ otherP.textContent = "ME TOO!";
 otherDiv.appendChild(otherP);
 // events
 
-const btn = document.querySelector('#btn');
 btn.addEventListener('click', function (e) {
+  const btn = document.querySelector('#btn');
 e.target.style.background = 'blue';
 });
   // commit
