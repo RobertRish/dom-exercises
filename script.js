@@ -39,8 +39,8 @@ otherDiv.appendChild(otherP);
 // events
 
 e.target.style.background = 'blue';
-btn.addEventListener('click', function (e) {
 });
+btn.addEventListener('click', function (e) {
 const btn = document.querySelector('#btn');
   // commit
   // commit
